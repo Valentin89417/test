@@ -29,7 +29,7 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
 //		server: { // Определяем параметры сервера для index.html
 //			baseDir: 'app' // Директория для сервера - app
 //		},
-		proxy: "app34", // index.php (в кавычках локальный домен сайта)
+		proxy: "startsite.loc", // index.php (в кавычках локальный домен сайта)
 		notify: false // Отключаем уведомления
 	});
 });
@@ -37,7 +37,7 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
 gulp.task('scripts', function() {
 	return gulp.src([ // Берем все необходимые библиотеки
 		'app/libs/jquery/dist/jquery.min.js', // Берем jQuery
-//		'app/libs/bootstrap/js/bootstrap.min.js', // Берем Bootstrap 
+		'app/libs/bootstrap/js/bootstrap.min.js', // Берем Bootstrap
 //		'app/js/my.js',
 		])
 		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
