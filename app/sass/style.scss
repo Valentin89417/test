@@ -50,10 +50,52 @@ ul {
 }
 
 
+/* gallery */
+.gallery .container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: -50px;
+}
+.gallery .card-header p {
+  font-size: 1.5rem;
+}
+.card-body {
+  background: #F3F3F3;
+}
+.filter_box {
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
 
+.single-district {
+  background: #daeddc;
+  color: #fff;
+  border:2px solid #009966;
+  display: block;
+  text-align: center;
+}
+.single-district h3 {
+  font-weight: 700;
 
+}
 
+.single-district p {
+  font-size: 15px;
+  margin: 8px;
 
+}
+
+.single-district a {
+  color: #000;
+  display: block;
+  padding: 15px;
+}
+
+.single-district a:hover {
+  color: red;
+  text-decoration: none;
+}
 
 
 

@@ -5,8 +5,8 @@
 $ git help commit   
 
 Базовая настройка Git
-git config --global user.name "Kanunnikov Valentin"
-git config --global user.email "89417@mail.ru"
+git config --global user.name "ваш - имя"
+git config --global user.email "ваш - email"
 
 проверка настроек 
 git config --list
@@ -26,7 +26,8 @@ git push -u origin master
 
 Клонируем репозиторий
 git clone https://github.com/Valentin89417/StartSite.git
-
+Клонировать определённую ветку
+git clone https://github.com/Valentin89417/StartSite.git -b имя_ветки
 
 Работа.
 git status
@@ -59,6 +60,9 @@ git branch
 
 *Создание ветки
 git branch имя_ветки
+
+*Создать и переключится на ветку
+$ git checkout -b имя_ветки
 
 *Переключение на нужную ветку
 git checkout имя_ветки
